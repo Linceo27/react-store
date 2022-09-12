@@ -1,0 +1,57 @@
+
+
+.container-produto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 57px;
+    padding-top: 105px;
+ }
+
+ 
+.container-carrinho-botoes{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   gap: 57px;
+}
+
+.imagem-3{
+background-color: brown;
+border-radius: 10px;
+height: 150px;
+}
+
+.imagem-2{
+    background-color:rgb(205, 237, 100);
+    border-radius: 10px;
+    height: 150px;
+
+}
+
+.imagem-1{
+    background-color:rgb(15, 142, 13);
+    border-radius: 10px;
+    height: 150px;
+
+}
+
+.imagem-1:hover{
+transform: scale(1.3);
+transition: all 0.5s;
+
+}
+
+.imagem-2:hover{
+transform: scale(1.3);
+transition: all 0.5s;
+    
+}
+
+.imagem-3:hover{
+transform: scale(1.3);
+transition: all 0.5s;
+        
+}
+
+
